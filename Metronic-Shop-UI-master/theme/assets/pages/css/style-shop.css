@@ -157,6 +157,7 @@ Header and header elements
 .top-cart-info-count {
 	float: left;
 }
+
 .top-cart-info-value {
 	border-left: solid 1px #a5aab0;
 	margin-left: 5px;
@@ -321,18 +322,21 @@ Header and header elements
 	text-transform: uppercase;
 	font: 13px "PT Sans Narrow", sans-serif;
 }
+.text-center{
+	text-align: center;
+}
 
 /* Catalogue styles */
 .product-item {
 	padding: 12px 12px 16px;
-	background: #fff;
+	background: rgb(255 255 255 / 15%);;
 	position: relative;
 }
 .owl-item.active .product-item {
 	margin-right: 10px;
 }
 .product-item:hover {
-	box-shadow: 5px 5px rgba(234, 234, 234, 0.9);
+	/*box-shadow: 5px 5px rgba(234, 234, 234, 0.9);*/
 }
 .product-item:after {
 	content: ".";
